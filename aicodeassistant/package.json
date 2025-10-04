@@ -11,13 +11,73 @@
   ],
   "activationEvents": [],
   "main": "./dist/extension.js",
-  "contributes": {
+   "contributes": {
     "commands": [
       {
-        "command": "aicodeassistant.helloWorld",
-        "title": "Hello World"
+        "command": "codeninja.helloWorld",
+        "title": "Code-X - Hello World"
+      },
+      {
+        "command": "codeninja.codeExplain",
+        "title": "Code-X - Explain Code"
+      },
+      {
+        "command": "codeninja.fixCode",
+        "title": "Code-X - Fix Code"
+      },
+      {
+        "command": "codeninja.codetranslate",
+        "title": "Code-X - Code and Translate Code"
+      },
+      {
+        "command": "codeninja.chatBox",
+        "title": "Code-X - Ask Code"
+      },
+      {
+        "command": "codeninja.generatecode",
+        "title": "Code-X - Generate Code from a Comment"
+      },
+      {
+        "command": "codeninja.refactorcode",
+        "title": "Code-X - Code Refactor"
+      },
+      {
+        "command": "codeninja.hellogemini",
+        "title": "Code-X - Gemini AI for option, show message"
+      },
+      {
+        "command": "codeninja.openSettings",
+        "title": "Code-X - Open Settings"
       }
-    ]
+    ], "menus": {
+      "editor/context": [
+        {
+          "command": "codeninja.codeExplain",
+          "when": "editorHasSelection",
+          "group": "navigation"
+        },
+        {
+          "command": "codeninja.fixCode",
+          "when": "editorHasSelection",
+          "group": "navigation"
+        },
+        {
+          "command": "codeninja.helloWorld",
+          "when": "editorHasSelection",
+          "group": "navigation"
+        },
+        {
+          "command": "codeninja.hellogemini",
+          "when": "editorHasSelection",
+          "group": "navigation"
+        },
+        {
+          "command": "codeninja.chatBox",
+          "when": "editorHasSelection",
+          "group": "navigation"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
