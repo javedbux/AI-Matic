@@ -59,7 +59,6 @@ Initial release with Explain, Fix, and Test Case generation features.
 1.1.0
 
 Added Offline Ollama Support, CSV upload, and Code Translation.
-
 Added grey action links above methods to quickly open CodeNinja Chat.
 
 ---
