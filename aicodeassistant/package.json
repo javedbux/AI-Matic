@@ -77,6 +77,20 @@
           "group": "navigation"
         }
       ]
+    },"configuration": {
+      "title": "AI Assistant Settings",
+      "properties": {
+        "aiAssistant.apiUrl": {
+          "type": "string",
+          "default": "http://localhost:11434/api/generate",
+          "description": "The base URL for the AI API (e.g., Ollama, OpenAI, or custom)."
+        },
+        "aiAssistant.model": {
+          "type": "string",
+          "default": "phi3",
+          "description": "The model name to use (e.g., llama3.1, mistral, gpt-4)."
+        }
+      }
     }
   },
   "scripts": {
