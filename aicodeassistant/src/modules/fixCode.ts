@@ -9,7 +9,7 @@ import { UserName } from './osUserName';
 
 function FixCodeProvider() {
 
-    vscode.commands.registerCommand('codeninja.fixCode', async () =>{
+    vscode.commands.registerCommand('aicodeassistant.fixCode', async () =>{
 
         console.log('Fix!');
         const editor = vscode.window.activeTextEditor;

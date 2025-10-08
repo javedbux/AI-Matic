@@ -9,7 +9,7 @@ import { UserName } from './osUserName';
 
 function ExplainCodeProvider() {
     
-    vscode.commands.registerCommand('codeninja.codeExplain', async () =>{
+    vscode.commands.registerCommand('aicodeassistant.codeExplain', async () =>{
         console.log('Explain! -----------');
         const editor = vscode.window.activeTextEditor;
         if(!editor){

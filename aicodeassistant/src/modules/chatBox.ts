@@ -5,7 +5,7 @@ import { UserName } from "./osUserName";
 import { mcpClientProvider } from "../modules/mcpClient";
 
 function ChatBoxProvider(context: vscode.ExtensionContext) {
-    vscode.commands.registerCommand("codeninja.chatBox", async () => {
+    vscode.commands.registerCommand("aicodeassistant.chatBox", async () => {
         const panel = vscode.window.createWebviewPanel(
             "chatBox",
             "CodeNinja Chat",

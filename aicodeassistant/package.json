@@ -14,65 +14,65 @@
    "contributes": {
     "commands": [
       {
-        "command": "codeninja.helloWorld",
+        "command": "aicodeassistant.helloWorld",
         "title": "Code-X - Hello World"
       },
       {
-        "command": "codeninja.codeExplain",
+        "command": "aicodeassistant.codeExplain",
         "title": "Code-X - Explain Code"
       },
       {
-        "command": "codeninja.fixCode",
+        "command": "aicodeassistant.fixCode",
         "title": "Code-X - Fix Code"
       },
       {
-        "command": "codeninja.codetranslate",
+        "command": "aicodeassistant.codetranslate",
         "title": "Code-X - Code and Translate Code"
       },
       {
-        "command": "codeninja.chatBox",
+        "command": "aicodeassistant.chatBox",
         "title": "Code-X - Ask Code"
       },
       {
-        "command": "codeninja.generatecode",
+        "command": "aicodeassistant.generatecode",
         "title": "Code-X - Generate Code from a Comment"
       },
       {
-        "command": "codeninja.refactorcode",
+        "command": "aicodeassistant.refactorcode",
         "title": "Code-X - Code Refactor"
       },
       {
-        "command": "codeninja.hellogemini",
+        "command": "aicodeassistant.hellogemini",
         "title": "Code-X - Gemini AI for option, show message"
       },
       {
-        "command": "codeninja.openSettings",
+        "command": "aicodeassistant.openSettings",
         "title": "Code-X - Open Settings"
       }
     ], "menus": {
       "editor/context": [
         {
-          "command": "codeninja.codeExplain",
+          "command": "aicodeassistant.codeExplain",
           "when": "editorHasSelection",
           "group": "navigation"
         },
         {
-          "command": "codeninja.fixCode",
+          "command": "aicodeassistant.fixCode",
           "when": "editorHasSelection",
           "group": "navigation"
         },
         {
-          "command": "codeninja.helloWorld",
+          "command": "aicodeassistant.helloWorld",
           "when": "editorHasSelection",
           "group": "navigation"
         },
         {
-          "command": "codeninja.hellogemini",
+          "command": "aicodeassistant.hellogemini",
           "when": "editorHasSelection",
           "group": "navigation"
         },
         {
-          "command": "codeninja.chatBox",
+          "command": "aicodeassistant.chatBox",
           "when": "editorHasSelection",
           "group": "navigation"
         }
